@@ -49,5 +49,11 @@ public class librarycontroller {
         return "welcome to delete";
     }
 
+    @PostMapping("/edit")
+    public String Edit()
+    {
+        return "welcome to edit";
+    }
+
 
 }
