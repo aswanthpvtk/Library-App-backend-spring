@@ -55,5 +55,11 @@ public class librarycontroller {
         return "welcome to edit";
     }
 
+    @PostMapping("/issue")
+    public String Issue()
+    {
+        return "welcome to issue";
+    }
+
 
 }
