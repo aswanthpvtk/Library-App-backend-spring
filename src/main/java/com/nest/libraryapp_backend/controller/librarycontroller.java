@@ -12,5 +12,11 @@ public class librarycontroller {
         return "welcome to admin login";
     }
 
+    @PostMapping("/ureg")
+    public String Userreg()
+    {
+        return "welcome to user reg";
+    }
+
 
 }
